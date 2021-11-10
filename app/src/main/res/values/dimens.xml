@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="space_small">4dp</dimen>
+    <dimen name="space_medium">6dp</dimen>
+    <dimen name="space_large">12dp</dimen>
+    <dimen name="image_icon_size">100dp</dimen>
+    <dimen name="space_extra_small">2dp</dimen>
+    <dimen name="list_item_height">100dp</dimen>
+</resources>

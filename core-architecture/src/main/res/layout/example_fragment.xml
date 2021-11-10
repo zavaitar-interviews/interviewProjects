@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".example.ExampleFragment"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/changeState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change state" />
+
+    <TextView
+        android:id="@+id/outputState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waiting for state..."/>
+
+    <TextView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOADING"
+        android:gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>

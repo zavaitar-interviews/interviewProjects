@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BeerCraft</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="beer_list_fragment_label">Beer List Fragment</string>
+    <string name="beer_details_fragment_label">Beer Details</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="brewers_tips">Brewers Tips</string>
+    <string name="description">Description</string>
+
+    <string name="hello_beer_list_fragment">Hello Beer List fragment</string>
+    <string name="hello_beer_details_fragment">Hello Beer Details fragment. Arg: %1$s</string>
+</resources>

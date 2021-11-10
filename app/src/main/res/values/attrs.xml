@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="postSplashScreenTheme"/>
+    <attr format="reference" name="windowSplashScreenAnimatedIcon"/>
+    <attr format="integer" name="windowSplashScreenAnimationDuration"/>
+    <attr format="color" name="windowSplashScreenBackground"/>
+</resources>

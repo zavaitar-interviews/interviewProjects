@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/BeerListFragment">
+
+    <fragment
+        android:id="@+id/BeerListFragment"
+        android:name="com.zavaitar.beercraft.presentation.BeerListFragment"
+        android:label="@string/beer_list_fragment_label"
+        tools:layout="@layout/beer_list">
+
+        <action
+            android:id="@+id/action_BeerListFragment_to_BeerDetailsFragment"
+            app:destination="@+id/BeerDetailsFragment" >
+        <argument
+            android:name="selectedBeer"
+            app:argType="com.zavaitar.beercraft.data.Beer" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/BeerDetailsFragment"
+        android:name="com.zavaitar.beercraft.presentation.BeerDetailsFragment"
+        android:label="@string/beer_details_fragment_label"
+        tools:layout="@layout/beer_details">
+
+        <action
+            android:id="@+id/action_BeerDetailsFragment_to_BeerListFragment"
+            app:destination="@id/BeerListFragment"/>
+    </fragment>
+</navigation>
